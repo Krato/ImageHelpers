@@ -1,7 +1,7 @@
 module.exports = {
   title: 'ImageHelpers',
   description: 'Documentation for ImageHelpers package for Laravel',
-  base: 'https://krato.github.io/ImageHelpers/',
+  base: '/imagehelpers/',
   serviceWorker: true,
   themeConfig: {
   	nav: [
