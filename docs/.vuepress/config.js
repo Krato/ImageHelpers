@@ -1,7 +1,7 @@
 module.exports = {
   title: 'ImageHelpers',
   description: 'Documentation for ImageHelpers package for Laravel',
-  base: '/imagehelpers/',
+  base: '/ImageHelpers/',
   serviceWorker: true,
   themeConfig: {
   	nav: [
