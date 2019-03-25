@@ -19,7 +19,7 @@ composer require ericlagarda/image-helpers
 
 ## Usage
 
-Check the docs
+Check the docs: https://krato.github.io/ImageHelpers
 
 ### Testing
 
