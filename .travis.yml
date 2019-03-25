@@ -26,6 +26,6 @@ deploy:
     github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
     repo: Krato/ImageHelpers
     keep-history: true
-    target-branch: master
+    target-branch: docs
     on:
-        branch: docs
+        branch: master
