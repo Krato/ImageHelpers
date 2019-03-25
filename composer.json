@@ -1,0 +1,55 @@
+{
+    "name": "ericlagarda/image-helpers",
+    "description": "Custom image helpers for laravel",
+    "keywords": [
+        "ericlagarda",
+        "image-helpers"
+    ],
+    "homepage": "https://github.com/ericlagarda/image-helpers",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Eric Lagarda",
+            "email": "eric@infinety.es",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*",
+        "coderello/laravel-proximage": "^0.5.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EricLagarda\\ImageHelpers\\": "src"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EricLagarda\\ImageHelpers\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EricLagarda\\ImageHelpers\\ImageHelpersServiceProvider"
+            ]
+        }
+    }
+}
