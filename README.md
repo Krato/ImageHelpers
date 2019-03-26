@@ -3,7 +3,7 @@
 Image Helpers for frontend on Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ericlagarda/image-helpers.svg?style=flat-square)](https://packagist.org/packages/ericlagarda/image-helpers)
-[![Build Status](https://img.shields.io/travis/ericlagarda/image-helpers/master.svg?style=flat-square)](https://travis-ci.org/ericlagarda/image-helpers)
+[![Build Status](https://img.shields.io/travis/Krato/ImageHelpers/master.svg?style=flat-square)](https://travis-ci.org/Krato/ImageHelpers)
 [![Total Downloads](https://img.shields.io/packagist/dt/ericlagarda/image-helpers.svg?style=flat-square)](https://packagist.org/packages/ericlagarda/image-helpers)
 
 
