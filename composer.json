@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.1",
         "illuminate/support": "5.8.*|^6.0",
-        "coderello/laravel-proximage": "^0.5.1"
+        "coderello/laravel-proximage": "^0.6"
     },
     "require-dev": {
         "orchestra/testbench": "3.8.*",
