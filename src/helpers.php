@@ -115,3 +115,29 @@ if (!function_exists('blur')) {
             ->blur($value)->get();
     }
 }
+
+if (!function_exists('interlace')) {
+    /**
+     * @param String $url
+     * @param Integer $width
+     * @param Integer $height
+     */
+    function interlace($url)
+    {
+        return imagehelper($url)
+            ->interlace(true)->get();
+    }
+}
+
+if (!function_exists('progressive')) {
+    /**
+     * @param String $url
+     * @param Integer $width
+     * @param Integer $height
+     */
+    function progressive($url)
+    {
+        return imagehelper($url)
+            ->interlace(true)->get();
+    }
+}

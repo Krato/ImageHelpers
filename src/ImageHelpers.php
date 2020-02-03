@@ -164,6 +164,28 @@ class ImageHelpers
     }
 
     /**
+     * @param $value
+     * @return mixed
+     */
+    public function interlace()
+    {
+        $this->imageProxy->interlace(true);
+
+        return $this;
+    }
+
+    /**
+     * @param $value
+     * @return mixed
+     */
+    public function progressive()
+    {
+        $this->imageProxy->interlace(true);
+
+        return $this;
+    }
+
+    /**
      * Convert object to string.
      *
      * @return string
