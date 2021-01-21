@@ -184,6 +184,17 @@ class ImageHelpers
 
         return $this;
     }
+    
+    /**
+     * @param $value
+     * @return mixed
+     */
+    public function default($url)
+    {
+        $this->imageProxy->parameter('default', $url);
+
+        return $this;
+    }
 
     /**
      * Convert object to string.
